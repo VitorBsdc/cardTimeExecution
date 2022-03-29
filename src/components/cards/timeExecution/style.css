@@ -1,0 +1,79 @@
+/*Import fontes*/
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/*Geral*/
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/*Div pai dos elementos*/
+.container {
+    position: absolute;
+    width: 260px;
+    height: 175px;
+
+    background-color: #F4F4F4;
+    border-radius: 10px;
+    filter: drop-shadow(0px 1px 6px rgba(0, 0, 0, 0.25));
+    
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/*Style titulo do card*/
+.content {
+    position: absolute;
+
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: 0.25px;
+
+    padding-top: 29px;
+    padding-left: 28px;
+
+    color: #000000;
+}
+
+/*Style do "contador"*/
+.counter {
+    position: absolute;
+
+     padding-top: 91px;
+     padding-left: 29px;   
+}
+
+/*Style do número*/
+.number {
+    display: inline-block;
+    line-height: 36px;
+}
+
+/*Style dos "h"*/
+h1{/*Número*/
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 36px;
+
+    color: #000000;
+}
+h2{/*"seg"*/
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+}
+h3 {/*Titulo principal*/
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 20px;
+}
